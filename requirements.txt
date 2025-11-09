@@ -1,0 +1,8 @@
+fastmcp
+requests
+
+# Testing dependencies
+pytest
+pytest-asyncio
+pytest-mock
+responses

@@ -1,0 +1,14 @@
+name: mcp_workshop
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+    - fastmcp
+    - requests
+    # For testing
+    - pytest
+    - pytest-asyncio
+    - pytest-mock
+    - responses
